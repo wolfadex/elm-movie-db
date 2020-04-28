@@ -36,7 +36,7 @@ update msg model =
 
 view : Model -> Document Msg
 view model =
-    { title = "My App"
+    { title = "Elm Movie DB"
     , body =
         [ layout
             []
@@ -47,4 +47,4 @@ view model =
 
 viewBody : Model -> Element Msg
 viewBody model =
-    text "Hello, My App!"
+    text "Hello, Elm Movie DB!"
